@@ -113,7 +113,7 @@
                 <img src="./assets/img/Bản-đồ.gif" alt="">
             </div>
 
-            <div class="content_element wow fadeInRight" data-wow-delay="500ms">
+            <div class="content_element">
                 <div class="title_basic" data-aos="fade-zoom-in" data-aos-delay="300" data-aos-easing="ease-in-sine" data-aos-duration="700">
                     <h2><span>Bach Linh Co</span></h2>
                     <p>Our successful business is built on trust in the close relationship between suppliers and wholesalers with the sole aim to accommodate kitchens and homes with better choices of food and beverage every day</p>
@@ -223,7 +223,7 @@
     </div>
 </div>
 
-<div class="site37_html_col0_ourranges wow fadeInUp" data-wow-delay="450ms">
+<div class="site37_html_col0_ourranges">
     <div class="container">
         <div class="row">
             <div class="title_white" data-aos="fade-zoom-in" data-aos-delay="300" data-aos-easing="ease-in-sine" data-aos-duration="700">
@@ -247,7 +247,7 @@
                         </div>
                         <div class="item">
                             <div class="img">
-                                <img src="./assets/img/s1.png" alt="">
+                                <img src="./assets/img/ss2.png" alt="">
                             </div>
                             <div class="category">
                                 <p> Sweets </p>
@@ -258,7 +258,7 @@
                         </div>
                         <div class="item">
                             <div class="img">
-                                <img src="./assets/img/s1.png" alt="">
+                                <img src="./assets/img/ss1.png" alt="">
                             </div>
                             <div class="category">
                                 <p> Sweets </p>
@@ -269,7 +269,7 @@
                         </div>
                         <div class="item">
                             <div class="img">
-                                <img src="./assets/img/s1.png" alt="">
+                                <img src="./assets/img/ss2.png" alt="">
                             </div>
                             <div class="category">
                                 <p> Sweets </p>
@@ -350,7 +350,7 @@
     </div>
 </div>
 
-<div class="site37_html_col0_oursupplier wow fadeInUp" data-wow-delay="450ms">
+<div class="site37_html_col0_oursupplier">
     <div class="container">
         <div class="row">
             <div class="title_white" data-aos="fade-zoom-in" data-aos-delay="300" data-aos-easing="ease-in-sine" data-aos-duration="700">
@@ -844,7 +844,7 @@
     </div>
 </div>
 
-<div class="site37_html_col0_ourprivatelable wow fadeInUp" data-wow-delay="450ms">
+<div class="site37_html_col0_ourprivatelable">
     <div class="container">
         <div class="row">
             <div class="title_white" data-aos="fade-zoom-in" data-aos-delay="300" data-aos-easing="ease-in-sine" data-aos-duration="700">
@@ -888,7 +888,7 @@
 </div>
 
 
-<div class="site37_html_col0_shopnow wow fadeInUp" data-wow-delay="450ms">
+<div class="site37_html_col0_shopnow">
     <div class="container">
         <div class="row">
             <div class="shopnow_element" data-aos="fade-down" data-aos-delay="300" data-aos-easing="ease-in-sine" data-aos-duration="700">
@@ -974,15 +974,6 @@
 </div>
 
 
-
-
-
-
-
-
-
-
-
 <div class="site35_icon_col12_iconlienhe">
     <a href="#" class="zalo-btn"><img src="./assets/img/tphone.png" alt=""></a>
     <a href="#" class="zalo-btn"><img src="./assets/img/tmess.png" alt=""></a>
@@ -997,94 +988,12 @@
 <script type="text/javascript" src="./assets/js/aos.js"></script>
 <script type="text/javascript" src="./assets/js/custrom-tr.js"></script>
 <script type="text/javascript" src="./assets/js/jquery.maphilight.min.js"></script>
-
-<style type="text/css">
-        path.eu {
-            fill: rgb(54, 164, 223) !important;
-        }
-        path.eu:hover {
-            cursor: pointer;
-        }
-
-        path.cn {
-            fill: rgb(240, 121, 30) !important;
-        }
-        path.cn:hover {
-            cursor: pointer;
-        }
-
-        path.tw {
-            fill: rgb(237, 64, 130) !important;
-        }
-        path.tw:hover {
-            cursor: pointer;
-        }
-
-        path.jp {
-            fill: rgb(44, 226, 50) !important;
-        }
-        path.jp:hover {
-            cursor: pointer;
-        }
-
-        .eu.active {
-            fill: rgb(255, 166, 0) !important;
-        }
-
-        .cn.active {
-            fill: rgb(255, 166, 0) !important;
-        }
-
-        .tw.active {
-            fill: rgb(255, 166, 0) !important;
-        }
-
-        .jp.active {
-            fill: rgb(255, 166, 0) !important;
-        }
-    </style>
-
+<script src="./assets/js/jquery.resizeOnApproach.1.0.min.js"></script> 
 
 <script>
-
-    $('.land.eu').click(function(){
-        if($('.box_item').hasClass('home')) { 
-           $('.home').addClass('active');
-           $('.menu1').removeClass('active');
-           $('.menu2').removeClass('active');
-           $('.menu3').removeClass('active');
-        }
-    });
-
-    $('.land.cn').click(function(){
-        if($('.box_item').hasClass('menu1')) { 
-           $('.menu1').addClass('active');
-           $('.home').removeClass('active');
-           $('.menu2').removeClass('active');
-           $('.menu3').removeClass('active');
-        }
-    });
-
-    $('.land.tw').click(function(){
-        if($('.box_item').hasClass('menu2')) { 
-           $('.menu2').addClass('active');
-           $('.home').removeClass('active');
-           $('.menu1').removeClass('active');
-           $('.menu3').removeClass('active');
-        }
-    });
-
-    $('.land.jp').click(function(){
-        if($('.box_item').hasClass('menu3')) { 
-           $('.menu3').addClass('active');
-           $('.home').removeClass('active');
-           $('.menu2').removeClass('active');
-           $('.menu1').removeClass('active');
-        }
-    });
-
-
+    AOS.init(); 
 </script>
+
 
 </body>
 </html>

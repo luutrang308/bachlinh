@@ -940,6 +940,7 @@ body {
 	    z-index: -1;
 	}
 	.title_white {
+		margin-bottom: 80px;
 		h2 {
 			font-family: SVN-Gotham Bold;
 			font-style: normal;
@@ -973,7 +974,7 @@ body {
 		padding: 25px;
 		background-image: url(./../img/bg4.png);
 		background-size: cover;
-		margin-top: 80px;
+		
 		.box_slider_for {
 			width: 50%;
 			float: left;
@@ -1667,6 +1668,7 @@ body {
 	background-size: cover;
 	padding: 105px 0 115px 0;
 	.title_white {
+		margin-bottom: 88px;
 		h2 {
 			font-family: SVN-Gotham Bold;
 			font-style: normal;
@@ -1692,7 +1694,6 @@ body {
 		}
 	}
 	.oursupplier_element {
-		margin-top: 88px;
 		background: #FFFFFF;
 		border: 1px solid #C5791A;
 		box-sizing: border-box;
@@ -1861,6 +1862,50 @@ body {
 			}
 		}
 	}
+}
+
+path.eu {
+    fill: rgb(54, 164, 223) !important;
+}
+path.eu:hover {
+    cursor: pointer;
+}
+
+path.cn {
+    fill: rgb(240, 121, 30) !important;
+}
+path.cn:hover {
+    cursor: pointer;
+}
+
+path.tw {
+    fill: rgb(237, 64, 130) !important;
+}
+path.tw:hover {
+    cursor: pointer;
+}
+
+path.jp {
+    fill: rgb(44, 226, 50) !important;
+}
+path.jp:hover {
+    cursor: pointer;
+}
+
+.eu.active {
+    fill: rgb(255, 166, 0) !important;
+}
+
+.cn.active {
+    fill: rgb(255, 166, 0) !important;
+}
+
+.tw.active {
+    fill: rgb(255, 166, 0) !important;
+}
+
+.jp.active {
+    fill: rgb(255, 166, 0) !important;
 }
 
 @media screen and (max-width: 1400px) {

@@ -1072,6 +1072,9 @@ body {
   position: absolute;
   z-index: -1;
 }
+.site37_html_col0_ourranges .title_white {
+  margin-bottom: 80px;
+}
 .site37_html_col0_ourranges .title_white h2 {
   font-family: SVN-Gotham Bold;
   font-style: normal;
@@ -1112,7 +1115,6 @@ body {
   padding: 25px;
   background-image: url(./../img/bg4.png);
   background-size: cover;
-  margin-top: 80px;
 }
 .site37_html_col0_ourranges .category_element .box_slider_for {
   width: 50%;
@@ -1864,6 +1866,9 @@ body {
   background-size: cover;
   padding: 105px 0 115px 0;
 }
+.site37_html_col0_oursupplier .title_white {
+  margin-bottom: 88px;
+}
 .site37_html_col0_oursupplier .title_white h2 {
   font-family: SVN-Gotham Bold;
   font-style: normal;
@@ -1889,7 +1894,6 @@ body {
   z-index: -1;
 }
 .site37_html_col0_oursupplier .oursupplier_element {
-  margin-top: 88px;
   background: #FFFFFF;
   border: 1px solid #C5791A;
   -webkit-box-sizing: border-box;
@@ -2075,6 +2079,54 @@ body {
   margin-left: 15px;
   -webkit-transition: 0.5s;
   transition: 0.5s;
+}
+
+path.eu {
+  fill: #36a4df !important;
+}
+
+path.eu:hover {
+  cursor: pointer;
+}
+
+path.cn {
+  fill: #f0791e !important;
+}
+
+path.cn:hover {
+  cursor: pointer;
+}
+
+path.tw {
+  fill: #ed4082 !important;
+}
+
+path.tw:hover {
+  cursor: pointer;
+}
+
+path.jp {
+  fill: #2ce232 !important;
+}
+
+path.jp:hover {
+  cursor: pointer;
+}
+
+.eu.active {
+  fill: #ffa600 !important;
+}
+
+.cn.active {
+  fill: #ffa600 !important;
+}
+
+.tw.active {
+  fill: #ffa600 !important;
+}
+
+.jp.active {
+  fill: #ffa600 !important;
 }
 
 @media screen and (max-width: 1400px) {

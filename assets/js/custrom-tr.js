@@ -1,6 +1,6 @@
 $(document).ready(function(){
   new WOW().init();
-  AOS.init(); 
+  
   $('.map').maphilight();
 
   /* site35_head_col0_icon */
@@ -133,6 +133,7 @@ $(document).ready(function(){
   $('.slider_for').slick({
     slidesToShow: 1,
     slidesToScroll: 1,
+    autoplay: true,
     arrows: true,
     dots: false,
     fade: true,
@@ -174,45 +175,66 @@ $(document).ready(function(){
     focusOnSelect: true
   });
 
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
 });
 
 $(document).ready(function () {
     $('.eu').mouseover(function (data) {
       $('.eu').addClass('active');
     }).mouseout(function () {
-      /*console.log('sdfsd')*/
+       
       $('.eu').removeClass('active');
     })
     $('.cn').mouseover(function (data) {
       $('.cn').addClass('active');
     }).mouseout(function () {
-      /*console.log('sdfsd')*/
+       
       $('.cn').removeClass('active');
     })
     $('.tw').mouseover(function (data) {
       $('.tw').addClass('active');
     }).mouseout(function () {
-      /*console.log('sdfsd')*/
+       
       $('.tw').removeClass('active');
     })
     $('.jp').mouseover(function (data) {
       $('.jp').addClass('active');
     }).mouseout(function () {
-      /*console.log('sdfsd')*/
+       
       $('.jp').removeClass('active');
-    })
+    });
+    $('.land.eu').click(function(){
+        if($('.box_item').hasClass('home')) { 
+           $('.home').addClass('active');
+           $('.menu1').removeClass('active');
+           $('.menu2').removeClass('active');
+           $('.menu3').removeClass('active');
+        }
+    });
+
+    $('.land.cn').click(function(){
+        if($('.box_item').hasClass('menu1')) { 
+           $('.menu1').addClass('active');
+           $('.home').removeClass('active');
+           $('.menu2').removeClass('active');
+           $('.menu3').removeClass('active');
+        }
+    });
+
+    $('.land.tw').click(function(){
+        if($('.box_item').hasClass('menu2')) { 
+           $('.menu2').addClass('active');
+           $('.home').removeClass('active');
+           $('.menu1').removeClass('active');
+           $('.menu3').removeClass('active');
+        }
+    });
+
+    $('.land.jp').click(function(){
+        if($('.box_item').hasClass('menu3')) { 
+           $('.menu3').addClass('active');
+           $('.home').removeClass('active');
+           $('.menu2').removeClass('active');
+           $('.menu1').removeClass('active');
+        }
+    });
   });
