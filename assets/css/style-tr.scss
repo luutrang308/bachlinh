@@ -498,7 +498,7 @@ body {
 			> img {
 				width: 100%;
 				height: auto;
-				animation: ripple1 20s alternate infinite ease-in;
+				/*animation: ripple1 20s alternate infinite ease-in;*/
 			}
 			.content {
 				position: absolute;
@@ -696,7 +696,7 @@ body {
 								left: 50%;
 								transform: translate(-50% , -50%);
 								width: 100%;
-								/*opacity: 0;*/
+								opacity: 0;
 								transition: 0.5s;
 							}
 						}

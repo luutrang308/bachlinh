@@ -561,8 +561,7 @@ body {
 .site37_bann_col0_slide .slider_homepage .item_slide > img {
   width: 100%;
   height: auto;
-  -webkit-animation: ripple1 20s alternate infinite ease-in;
-          animation: ripple1 20s alternate infinite ease-in;
+  /*animation: ripple1 20s alternate infinite ease-in;*/
 }
 .site37_bann_col0_slide .slider_homepage .item_slide .content {
   position: absolute;
@@ -813,7 +812,7 @@ body {
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   width: 100%;
-  /*opacity: 0;*/
+  opacity: 0;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
