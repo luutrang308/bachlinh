@@ -454,10 +454,10 @@ body {
 
   .site36_head_col0_dcentral .section_header .menu_page {
     width: 100%;
-    margin-top: 10px;
+    margin-top: 0px;
     padding: 10px 15px;
     display: none;
-    top: 25%;
+    top: 14%;
   }
 
   .site36_head_col0_dcentral .section_header .menu_page > ul, .site36_head_col0_dcentral .section_header .menu_page > ul > li {
@@ -520,7 +520,12 @@ body {
   }
 
   .section_header.active .form_lang {
-    display: block !important;
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
 
   .site36_head_col0_dcentral .section_header .form_lang .form_page, .site36_head_col0_dcentral .section_header .form_lang .language_page {
@@ -565,21 +570,21 @@ body {
 }
 .site37_bann_col0_slide .slider_homepage .item_slide .content {
   position: absolute;
-  top: 50%;
+  top: 78%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   text-align: center;
-  width: 30%;
-}
-.site37_bann_col0_slide .slider_homepage .item_slide .content p {
-  font-family: SVN-Gotham;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 24px;
-  color: #5b2a05;
-  margin: 60px 0 30px 0;
+  width: 60%;
+  /*p {
+  	font-family: SVN-Gotham;
+  	font-style: normal;
+  	font-weight: normal;
+  	font-size: 16px;
+  	line-height: 24px;
+  	color: #5b2a05;
+  	margin: 60px 0 30px 0;
+  }*/
 }
 .site37_bann_col0_slide .slider_homepage .item_slide .content .btn_slide {
   color: #fff;
@@ -657,6 +662,7 @@ body {
   .site37_bann_col0_slide .slider_homepage .item_slide .content {
     width: 100%;
     padding: 0 15px;
+    display: none;
   }
 
   .site37_bann_col0_slide .slider_homepage .item_slide .content p {
@@ -672,7 +678,12 @@ body {
   }
 
   .site37_bann_col0_slide .slider_homepage .item_slide .content .btn_slide {
-    height: 37px !important;
+    height: auto !important;
+    padding: 5px 0 10px 0;
+  }
+
+  .site37_bann_col0_slide .slider_homepage .slick-dots {
+    display: none !important;
   }
 }
 /*  site37_html_col12_bachlinhco */
@@ -887,6 +898,7 @@ body {
   padding: 110px 0 200px 0;
   background-image: url(../img/bg2.png);
   background-size: cover;
+  overflow: hidden;
 }
 .site37_intr_col12_bachlinh .img_about {
   width: 50%;
@@ -1365,11 +1377,17 @@ body {
   height: 577px;
   overflow: hidden;
 }
+.site37_html_col0_ourprivatelable .slider_element .slider_for_our .img:hover img {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
 .site37_html_col0_ourprivatelable .slider_element .slider_for_our .img img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 .site37_html_col0_ourprivatelable .slider_element .slider_for_our .slick-prev {
   left: 82%;
@@ -1520,6 +1538,9 @@ body {
   padding: 90px 0;
   position: relative;
 }
+.site37_html_col0_shopnow .shopnow_element:hover:after {
+  opacity: 0;
+}
 .site37_html_col0_shopnow .shopnow_element:before {
   width: 100%;
   height: 100%;
@@ -1535,6 +1556,18 @@ body {
   right: 0;
   position: absolute;
   z-index: -1;
+}
+.site37_html_col0_shopnow .shopnow_element:after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: rgba(91, 42, 6, 0.4);
+  top: 0;
+  left: 0;
+  z-index: -1;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 .site37_html_col0_shopnow .shopnow_element h2 {
   font-family: SVN-Gotham Bold;
@@ -1950,6 +1983,18 @@ body {
 .site37_html_col0_oursupplier .oursupplier_element .thuonghieu_box .box_item {
   width: 100%;
   display: none;
+}
+.site37_html_col0_oursupplier .oursupplier_element .thuonghieu_box .box_item h2 {
+  font-family: SVN-Gotham;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 30px;
+  padding: 0 35px;
+  text-transform: uppercase;
 }
 .site37_html_col0_oursupplier .oursupplier_element .thuonghieu_box .box_item.active {
   display: block;
