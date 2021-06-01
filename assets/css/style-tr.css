@@ -1879,7 +1879,7 @@ body {
 .site37_html_col0_oursupplier .oursupplier_element .map_box {
   width: 60%;
   overflow: hidden;
-  padding: 65px 6px 66px 6px;
+  /*padding: 65px 6px 66px 6px;*/
   position: relative;
 }
 .site37_html_col0_oursupplier .oursupplier_element .map_box .nav_tabs {
@@ -1946,6 +1946,7 @@ body {
   background-image: url(./../img/bg11.png);
   background-size: cover;
   padding-top: 45px;
+  padding-bottom: 45px;
 }
 .site37_html_col0_oursupplier .oursupplier_element .thuonghieu_box .box_item {
   width: 100%;

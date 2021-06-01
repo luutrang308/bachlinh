@@ -110,7 +110,7 @@
     <div class="container">
         <div class="row">
             <div class="bando_element wow fadeInLeft" data-wow-delay="400ms">
-                <img src="./assets/img/bando.png" alt="">
+                <img src="./assets/img/Bản-đồ.gif" alt="">
             </div>
 
             <div class="content_element wow fadeInRight" data-wow-delay="500ms">
@@ -359,33 +359,12 @@
 
             <div class="oursupplier_element">
                 <div class="map_box">
-                    <!-- <img src="./assets/img/mapbox.png" class="map_img" usemap="#image-map"> -->
+                    <!-- <img src="./assets/img/bando.svg" class="map_img" usemap="#image-map"> -->
                     <iframe src="map.html" style="width: 100%;height: 100%;overflow: hidden;" frameborder="0" class="map_img"></iframe>
-                    <map name="image-map">
-                        <ul class="nav nav-tabs nav_tabs">
-                            <li class="active"><a data-toggle="tab" href="#home">
-                                <!-- <area target="" alt="" title="" href="javascript:;" coords="303,144,296,137,308,133,322,133,322,139,333,167,327,179,333,195,329,202,327,214,335,223,343,234,346,241,337,249,331,247,327,251,324,255,320,262,319,267,313,261,304,250,300,245,308,263,298,262,293,259,288,252,277,258,274,263,267,265,260,264,261,252,274,251,276,241,266,237,275,231,270,225,261,229,256,225,269,213,275,218,285,224,296,216,295,206,289,206,264,191,255,193,248,188,257,181,270,184,281,198,289,196,300,183,311,169,311,160,311,152" shape="poly"> -->
-                                <area target="" alt="" title="" href="javascript:;" coords="310,223,44" shape="circle">
-                            </a></li>
-                            <li><a data-toggle="tab" href="#menu1">
-                                <!-- <area target="" alt="" title="" href="javascript:;" coords="419,264,426,261,431,253,436,245,444,243,450,254,453,261,468,264,482,264,495,261,493,251,502,243,513,249,517,259,512,268,497,275,495,280,498,300,490,309,477,314,466,312,457,298,451,290,444,290,435,290,422,284,427,273" shape="poly"> -->
-
-                                <area target="" alt="" title="" href="javascript:;" coords="464,277,40" shape="circle">
-                            </a></li>
-                            <li><a data-toggle="tab" href="#menu2">
-                                <!-- <area target="" alt="" title="" href="javascript:;" coords="500,317,488,319,504,302,515,311,517,314,509,317" shape="poly"> -->
-                                <area target="" alt="" title="" href="javascript:;" coords="500,312,13" shape="circle">
-                            </a></li>
-                            <li><a data-toggle="tab" href="#menu3">
-                                <!-- <area target="" alt="" title="" href="javascript:;" coords="531,258,540,266,537,285,527,295,509,297,517,280" shape="poly"> -->
-                                <area target="" alt="" title="" href="javascript:;" coords="532,283,22" shape="circle">
-                            </a></li>
-                        </ul>
-                    </map>
                 </div>
 
                 <div class="tab-content tab_content thuonghieu_box">
-                    <div id="home" class="box_item tab-pane fade in active">
+                    <div id="home" class="home box_item active">
                         <p>Chúng tôi cung cấp đa dạng các loại thực phẩm nhập khẩu có thương hiệu trung và cao cấp cho tất cả các nhà bán lẻ và chuỗi cửa hàng tiện dụng.</p>
                         <div class="thuong_item">
                             <div class="img">
@@ -431,7 +410,7 @@
                             </div>
                         </div>
                     </div>
-                    <div id="menu1" class="box_item tab-pane fade">
+                    <div id="menu1" class="menu1 box_item">
                         <p>Chúng tôi cung cấp đa dạng các loại thực phẩm nhập khẩu có thương hiệu trung và cao cấp cho tất cả các nhà bán lẻ và chuỗi cửa hàng tiện dụng.</p>
                         <div class="thuong_item">
                             <div class="img">
@@ -477,7 +456,7 @@
                             </div>
                         </div>
                     </div>
-                    <div id="menu2" class="box_item tab-pane fade">
+                    <div id="menu2" class="menu2 box_item">
                         <p>Chúng tôi cung cấp đa dạng các loại thực phẩm nhập khẩu có thương hiệu trung và cao cấp cho tất cả các nhà bán lẻ và chuỗi cửa hàng tiện dụng.</p>
                         <div class="thuong_item">
                             <div class="img">
@@ -523,7 +502,7 @@
                             </div>
                         </div>
                     </div>
-                    <div id="menu3" class="box_item tab-pane fade">
+                    <div id="menu3" class="menu3 box_item">
                         <p>Chúng tôi cung cấp đa dạng các loại thực phẩm nhập khẩu có thương hiệu trung và cao cấp cho tất cả các nhà bán lẻ và chuỗi cửa hàng tiện dụng.</p>
                         <div class="thuong_item">
                             <div class="img">
@@ -732,8 +711,20 @@
 <script type="text/javascript" src="./assets/js/aos.js"></script>
 <script type="text/javascript" src="./assets/js/custrom-tr.js"></script>
 <script type="text/javascript" src="./assets/js/jquery.maphilight.min.js"></script>
+
 <script>
-    /*$('.map_img').maphilight();*/
+    function functionEU() {
+        $('.menu1').addClass('active');
+    }
+    function functionTW() {
+        $('.menu3').addClass('active');
+    }
+    function functionCN() {
+        $('.menu4').addClass('active');
+    }
+    function functionJP() {
+        $('.menu2').addClass('active');
+    }
 </script>
 
 </body>

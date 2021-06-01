@@ -174,6 +174,7 @@ $(document).ready(function(){
     focusOnSelect: true
   });
 
+  
 
 
 
@@ -189,3 +190,29 @@ $(document).ready(function(){
 
 });
 
+$(document).ready(function () {
+    $('.eu').mouseover(function (data) {
+      $('.eu').addClass('active');
+    }).mouseout(function () {
+      /*console.log('sdfsd')*/
+      $('.eu').removeClass('active');
+    })
+    $('.cn').mouseover(function (data) {
+      $('.cn').addClass('active');
+    }).mouseout(function () {
+      /*console.log('sdfsd')*/
+      $('.cn').removeClass('active');
+    })
+    $('.tw').mouseover(function (data) {
+      $('.tw').addClass('active');
+    }).mouseout(function () {
+      /*console.log('sdfsd')*/
+      $('.tw').removeClass('active');
+    })
+    $('.jp').mouseover(function (data) {
+      $('.jp').addClass('active');
+    }).mouseout(function () {
+      /*console.log('sdfsd')*/
+      $('.jp').removeClass('active');
+    })
+  });
