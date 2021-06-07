@@ -138,7 +138,6 @@ $(document).ready(function(){
     dots: false,
     fade: true,
     centerMode: true,
-    asNavFor: '.slider_nav',
     prevArrow: "<button class='prev slick-prev'><img class='left-arrow ' src='./assets/img/left.png' alt=''></button>",
     nextArrow: "<button class='next slick-next'><img class='right-arrow ' src='./assets/img/right1.png' alt=''></button>",
     
